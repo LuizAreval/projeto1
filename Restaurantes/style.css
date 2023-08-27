@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a5c1d2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #080f22;
+    color: #28a2df;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch; 
+    justify-content: start;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.card {
+    flex: 0 0 auto;             /* Don't grow, don't shrink, keep original width */
+    padding: 31px;
+    margin-left: 20px;
+    background-color: #080f22;
+    color: #28a2df;
+    border-radius: 20px 10px;
+    font-family: Arial;
+    font-style: italic;
+    scroll-snap-align: start;  /* Snap the start of the child element */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card a {
+    color: #73d51e;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #080f22;
+    color: #28a2df;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
