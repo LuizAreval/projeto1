@@ -1,9 +1,8 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #636363;
+    background-color: #a5a5a5;
     margin-left: 25px;
     margin-top: 150px;
-    padding: 0;
     color: #333;
 }
 
@@ -18,15 +17,13 @@ body {
 
 .container {
     display: flex;
-    padding: 10px 0;
-    width: 100%;
 }
 
 .card {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     flex: 0 0 auto;  
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-right: 5px;
     background-color: #1f1f1f;
     color: #a80000;
@@ -45,7 +42,6 @@ body {
 }
 
 .card a {
-    position: relative;
     color: #ff0000;
     text-decoration: none;
 }
@@ -64,6 +60,5 @@ body {
     bottom: 0;
     width: 100%;
 }
-
 
 
